@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>W3.CSS Template</title>
+  <title>Sumanth Tambi</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="me.jpg" type="image/x-icon">
   <style>
     body,
     h1,
@@ -18,20 +18,16 @@
     h6 {
       font-family: "Montserrat", sans-serif
     }
-
     .w3-row-padding img {
       margin-bottom: 12px
     }
-
     .w3-sidebar {
       width: 120px;
       background: #222;
     }
-
     #main {
       margin-left: 120px
     }
-
     @media only screen and (max-width: 600px) {
       #main {
         margin-left: 0
@@ -39,10 +35,8 @@
     }
   </style>
 </head>
-
 <body class="w3-black">
   <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <img src="me-removebg-preview.png" style="width:100%">
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
       <i class="fa fa-home w3-xxlarge"></i>
       <p>HOME</p>
@@ -51,9 +45,13 @@
       <i class="fa fa-user w3-xxlarge"></i>
       <p>ABOUT</p>
     </a>
-    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i style='font-size:48px' class='fas'>&#xf5fc;</i>
+      <p><strong>SKILLS</strong></p>
+    </a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
       <i class="fa fa-eye w3-xxlarge"></i>
-      <p>PHOTOS</p>
+      <p>PROJECTS</p>
     </a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
       <i class="fa fa-envelope w3-xxlarge"></i>
@@ -64,75 +62,186 @@
     <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
       <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
       <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <a href="#skills" class="w3-bar-item w3-button" style="width:25% !important">SKILLS</a>
+      <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
       <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
     </div>
   </div>
+  <button onclick="window.print();" class="w3-button" style="position: fixed; top: 10px; right: 10px; background-color: #333; border: none; padding: 0; outline: none;">
+    <a href="link-to-your-resume-file.pdf" download="your-resume.pdf" class="w3-button" style="color: white; text-decoration: none; display: inline-block; padding: 16px; background-color: black; border: none; outline: none;">
+      <i class="fa fa-download"></i> Download
+    </a>
+  </button>
   <div class="w3-padding-large" id="main">
     <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Sumanth</h1>
-      <p>Learner</p>
-      <img src="12.jpg" alt="boy" class="w3-image" width="992" height="1108">
+      <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Sumanth Tambi</h1>
+      <p>Data Science Student</p>
+      <img src="my.jpeg" alt="sumanth" class="w3-image" width="400" height="410">
     </header>
     <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
       <h2 class="w3-text-light-grey">Sumanth</h2>
-      <hr style="width:200px" class="w3-opacity">
-      <p>Hi, I'm a third-year B.Tech Data Science student known for my deep love for parents and friends. My academic
-        journey is marked by a passion for Data Science, with a focus on data analysis and machine learning. I value
-        friendships and believe in the importance of genuine connections. I draw inspiration from my parents, who
-        instilled values of hard work and empathy. I can say that my character is a blend of academic curiosity,
-        meaningful relationships, and strong family bonds, promising a bright future.
-      </p>
-      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-      <p class="w3-wide">Web Design</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-      </div>
-      <p class="w3-wide">Programming with C,CPP,Java,python</p>
+      <hr style="width:150px" class="w3-opacity">
+      <p>I have recently completed my B. Tech 3rd year CSE data science from Gandhi Institute of Technology and Management. My academic journey is marked by a passion for Data Science, with a focus on data analysis and machine learning. I value friendships and believe in the importance of genuine connections. I draw inspiration from my parents, who instilled values of hard work and empathy. I can say that my character is a blend of academic curiosity, meaningful relationships, and strong family bonds, promising a bright future.
+      </p><br>
+      <h2 class="w3-text-light-grey">Education</h2>
+      <hr style="width:160px" class="w3-opacity">
+          <div class="education-item">
+            <h2 style="font-size: 140%;">Gitam University</h2>
+            <p>&emsp;&emsp;&emsp;&emsp;2021–present | CGPA: 9.68</p>
+          </div>
+          <div class="education-item">
+            <h2 style="font-size: 140%;">Narayana Junior College</h2>
+            <p>&emsp;&emsp;&emsp;&emsp;2021 | CGPA: 9.8</p>
+          </div>   
+          <div class="education-item">
+            <h2 style="font-size: 140%;">Dr.K.K.R’s Gowtham School</h2>
+            <p>&emsp;&emsp;&emsp;&emsp;2019 | GPA: 10</p>
+          </div>
+    <h2 class="w3-text-light-grey">Work Experience</h2>
+      <hr style="width:260px" class="w3-opacity">
+      <h3 style="color:#cccccc;">Data analytics and machine learning (Intern)
+      Brainovision</h3>
+      <ul>
+        <li>Utilized statistical methods and data visualization tools to identify trends and patterns.</li>
+      <li>Developed and trained a machine learning model for car price prediction, enhancing the accuracy of price estimations.</li>
+      <li>Gained hands-on experience in data analysis and machine learning.</li> </ul>
+      <h3 style="color:#cccccc;">Full Stack Developer Trainee (Intern)
+      Terralogic Solutions, Inc.</h3>
+        <ul>
+          <li>Contributed to the design and implementation of dynamic and responsive web applications, improving application performance and usability.</li>
+        <li>Gained hands-on experience in full-stack development. </li>
+        <li>Engaged in professional communication and interaction with peers.</li> </ul>
+      <h3 class="w3-padding-16 w3-text-light-grey" id="skills">Technical Skills</h3>
+      <hr style="width:190px" class="w3-opacity">
+      <p class="w3-wide">Python</p>
       <div class="w3-white">
         <div class="w3-dark-grey" style="height:28px;width:85%"></div>
       </div>
-      <p class="w3-wide">Basics of Machine Learning</p>
+      <p class="w3-wide">Java</p>
       <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      </div>
+      <p class="w3-wide">HTML</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      </div>
+      <p class="w3-wide">Data Visualization and Exploration with R</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
       </div><br>
-      <button onclick=window.print(); class="w3-button w3-light-grey w3-padding-large w3-section">
-        <a href="link-to-your-resume-file.pdf" download="your-resume.pdf"
-          class="w3-button w3-light-grey w3-padding-large w3-section">
-          <i class="fa fa-download"></i> Download Resume
-        </a>
-      </button>
-      <div class="w3-padding-64 w3-content" id="photos">
-        <h2 class="w3-text-light-grey">My Photos</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="1.jpg" style="width:100%">
-            <img src="2.jpg" style="width:100%">
-            <img src="3.jpg" style="width:100%">
-            <img src="9.jpg" style="width:100%">
-            <img src="10.jpg" style="width:100%">
-            <img src="11.jpg" style="width:100%">
+       <p class="w3-wide">Machine Learning</p>
+       <div class="w3-white">
+         <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+       </div>
+      <p class="w3-wide">C</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="w3-wide">SQL</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="w3-wide">Data Science</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="w3-wide">CSS</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="w3-wide">JavaScript</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="w3-wide">ReactJS</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+      </div>
+      <p class="w3-wide">NodeJS</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+      </div>
+      <p class="w3-wide">MongoDB</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+      </div>
+      <h3 class="w3-padding-16 w3-text-light-grey" id="skills">Core Competencies</h3>
+      <hr style="width:240px" class="w3-opacity">
+      <div style="display: flex; justify-content: space-between;">
+        <ul style="padding: 0; width: 45%; margin: 0;">
+          <li style="margin-bottom: 10px;">Leadership</li>
+          <li style="margin-bottom: 10px;">Video Editing</li>
+          <li style="margin-bottom: 10px;">Teamwork</li>
+        </ul>
+        <ul style="padding: 0; width: 45%; margin: 0;">
+          <li style="margin-bottom: 10px;">Communication</li>
+          <li style="margin-bottom: 10px;">Creativity</li>
+        </ul>
+      </div>
+      <h3 class="w3-padding-16 w3-text-light-grey" id="skills">Technical Toolkit</h3>
+      <hr style="width:210px" class="w3-opacity">
+      <div style="display: flex; justify-content: space-between;">
+        <ul style="padding: 0; width: 45%; margin: 0;">
+          <li style="margin-bottom: 10px;">VS Code</li>
+          <li style="margin-bottom: 10px;">R Studio</li>
+          <li style="margin-bottom: 10px;">Github</li>
+          <li style="margin-bottom: 10px;">Jupyterlab</li>
+        </ul>
+        <ul style="padding: 0; width: 45%; margin: 0;">
+          <li style="margin-bottom: 10px;">Replit</li>
+          <li style="margin-bottom: 10px;">SQL</li>
+          <li style="margin-bottom: 10px;">MongoDB Atlas</li>
+          <li style="margin-bottom: 10px;">PowerBI</li>
+        </ul>
+        </ul>
+      </div>
+      <div class="w3-padding-64 w3-content w3-text-grey" id="projects">
+        <h2 class="w3-text-light-grey">My Projects</h2>
+        <hr style="width:180px" class="w3-opacity">
+        <div class="project">
+          <h2 style="color: #cccccc;">Student Management Portal <span style="font-size: 60%; color: #cccccc;">- A simple CRUD operation web-based application.</span></h2>
+            <ul>
+              <li>Led frontend and backend development for the student management portal, ensuring seamless management of student data.</li>
+              <li>Collaborated on integrating frontend and backend systems, enhancing user satisfaction through usability testing and design adjustments.</li>
+            </ul>
+            <p><strong>Technology Stack:</strong> ReactJS, NodeJS, CSS, JavaScript, AntDesign, MongoDB.</p>
           </div>
-          <div class="w3-half">
-            <img src="4.jpg" style="width:100%">
-            <img src="5.jpg" style="width:100%">
-            <img src="6.jpg" style="width:100%">
-            <img src="8.jpg" style="width:100%">
-            <img src="12.jpg" style="width:100%">
+
+          <div class="project">
+            <h2 style="color: #cccccc;">Car Price Predictor <span style="font-size: 60%; color: #cccccc;">- A web-based application used to predict the price of a car.</span></h2>
+            <ul>
+              <li>Explored the dataset and performed various analytical and visualization techniques to identify patterns.</li>
+              <li>From the insights drawn, a machine learning model has been trained by using various statistical methods.</li>
+              <li>Developed a frontend for the application to predict the price from the web in which the user inputs.</li>
+            </ul>
+            <p><strong>Technology Stack:</strong> Python, Machine Learning, CSS, ReactJS.</p>
+            <h4 style="color: #cccccc;"><a href="https://carpricepredictor-tvss.onrender.com"><strong>Try it?</strong></a></h4>
           </div>
         </div>
+
+      <div class="project">
+          <h2 style="color: #cccccc;">Shoot-Best <span style="font-size: 60%; color: #cccccc;">- A simple 2D shooting game.</span></h2>
+          <ul>
+            <li>Developed a 2D shooter game using Unity, featuring thrilling action, intense gameplay, and stunning visuals.</li>
+            <li>Overcame various challenges in game design, programming, and problem-solving, enhancing skills through determination and perseverance.</li>
+            <li>Collaborated with the Unity community and peers, incorporating valuable feedback and testing to ensure an engaging player experience.</li>
+          </ul>
+          <p><strong>Technology Stack:</strong> Unity hub,C#</p>
+          <h4 style="color: #cccccc;"><a href="https://tambi-venkata-sai-sumanth.itch.io/shoot-best"><strong>Try it?</strong></a></h4>
+        </div>
       </div>
+      </div>
+  
       <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
         <h2 class="w3-text-light-grey">Contact Me</h2>
-        <hr style="width:200px" class="w3-opacity">
+        <hr style="width:180px" class="w3-opacity">
         <div class="w3-section">
           <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Visakhapatnam, India</p>
           <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 7013803262</p>
           <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
             venkatasaisumanth74@gmail.com</p>
         </div><br>
-        <p>Let's get in touch. Send me a message:</p>
+        <h5 style="color:#cccccc;">Ping Me:</h5>
         <form action="mailto:venkatasaisumanth74@gmail.com" method="post" enctype="text/plain">
           <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
           <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
@@ -146,14 +255,18 @@
         </form>
       </div>
       <footer align="center" class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <h1>Connect with Me!</h1>
+        <a href="https://github.com/sumanth321123" target="_blank" class="w3-hover-opacity social-link">
+          <i class="fa fa-github" style="font-size: 56px;"></i></a>
         <a href="https://m.facebook.com/sai.sumanth.716970?eav=AfY8Gb2A4miKQgJHP2CzCSYaeFfNB8jm8_2TLFzAA0tqaBeKSVMIkOXAyi9_zE1iIMc&paipv=0"
           target="_blank" class="w3-hover-opacity"><i class="fa fa-facebook-official" style="font-size: 56px;"></i></a>
         <a href="https://www.instagram.com/___sumanth__sai__/" target="_blank" class="w3-hover-opacity"><i
             class="fa fa-instagram" style="font-size: 56px;"></i></a>
         <a href="https://www.snapchat.com/add/sai_sumanth1432?share_id=NErzbz_5QqU&locale=en-IN" target="_blank"
           class="w3-hover-opacity"><i class="fa fa-snapchat w3-hover-opacity" style="font-size: 56px;"></i></a>
+        <a href="https://wa.me/7013803262" target="_blank" class="w3-hover-opacity social-link">
+          <i class="fa fa-whatsapp" style="font-size: 56px;"></i></a>
       </footer>
     </div>
 </body>
-
 </html>
